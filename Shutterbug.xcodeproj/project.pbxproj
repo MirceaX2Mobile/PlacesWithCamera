@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311D8C5E1FFE8BB0006E3E74 /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 311D8C5D1FFE8BB0006E3E74 /* no_image.jpg */; };
+		3163A49B1FFE2E2500514DE2 /* AddPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3163A49A1FFE2E2500514DE2 /* AddPhotoVC.m */; };
+		A45754951FE3F8A800603DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754941FE3F8A800603DDC /* AppDelegate.m */; };
+		A45754981FE3F8A800603DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754971FE3F8A800603DDC /* ViewController.m */; };
+		A457549B1FE3F8A800603DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45754991FE3F8A800603DDC /* Main.storyboard */; };
+		A457549D1FE3F8A800603DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A457549C1FE3F8A800603DDC /* Assets.xcassets */; };
+		A45754A01FE3F8A800603DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457549E1FE3F8A800603DDC /* LaunchScreen.storyboard */; };
+		A45754A31FE3F8A800603DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754A21FE3F8A800603DDC /* main.m */; };
+		A45754AD1FE3F8A800603DDC /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754AC1FE3F8A800603DDC /* ShutterbugTests.m */; };
+		A45754B81FE3F8A800603DDC /* ShutterbugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754B71FE3F8A800603DDC /* ShutterbugUITests.m */; };
+		A45754C71FE3FE9D00603DDC /* FlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754C61FE3FE9D00603DDC /* FlickrPhotosTVC.m */; };
+		A45754CC1FE3FF3500603DDC /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754CB1FE3FF3500603DDC /* FlickrFetcher.m */; };
+		A45754CF1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754CE1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.m */; };
+		A45754D21FE3FF5500603DDC /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45754D11FE3FF5500603DDC /* ImageViewController.m */; };
+		A46F1FE01FE805D20004AFAF /* RecentlyViewedPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F1FDF1FE805D20004AFAF /* RecentlyViewedPhotos.m */; };
+		A46F1FE31FE81DBF0004AFAF /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F1FE21FE81DBF0004AFAF /* ImagesTableViewController.m */; };
+		A46F1FE61FE82FD30004AFAF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F1FE51FE82FD30004AFAF /* Photo.m */; };
+		A4DF346C1FEAB7270010AB3A /* PhotosMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF346B1FEAB7270010AB3A /* PhotosMapViewController.m */; };
+		A4DF346F1FEAB9560010AB3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF346E1FEAB9410010AB3A /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A45754A91FE3F8A800603DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45754881FE3F8A700603DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A457548F1FE3F8A800603DDC;
+			remoteInfo = Shutterbug;
+		};
+		A45754B41FE3F8A800603DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45754881FE3F8A700603DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A457548F1FE3F8A800603DDC;
+			remoteInfo = Shutterbug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311D8C5D1FFE8BB0006E3E74 /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
+		3163A4991FFE2E2500514DE2 /* AddPhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPhotoVC.h; sourceTree = "<group>"; };
+		3163A49A1FFE2E2500514DE2 /* AddPhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPhotoVC.m; sourceTree = "<group>"; };
+		A45754901FE3F8A800603DDC /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45754931FE3F8A800603DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A45754941FE3F8A800603DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A45754961FE3F8A800603DDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A45754971FE3F8A800603DDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A457549A1FE3F8A800603DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A457549C1FE3F8A800603DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A457549F1FE3F8A800603DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45754A11FE3F8A800603DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45754A21FE3F8A800603DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A45754A81FE3F8A800603DDC /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45754AC1FE3F8A800603DDC /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		A45754AE1FE3F8A800603DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45754B31FE3F8A800603DDC /* ShutterbugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45754B71FE3F8A800603DDC /* ShutterbugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugUITests.m; sourceTree = "<group>"; };
+		A45754B91FE3F8A800603DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45754C51FE3FE9D00603DDC /* FlickrPhotosTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotosTVC.h; sourceTree = "<group>"; };
+		A45754C61FE3FE9D00603DDC /* FlickrPhotosTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotosTVC.m; sourceTree = "<group>"; };
+		A45754C91FE3FF3500603DDC /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		A45754CA1FE3FF3500603DDC /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		A45754CB1FE3FF3500603DDC /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		A45754CD1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustPostedFlickrPhotosTVC.h; sourceTree = "<group>"; };
+		A45754CE1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustPostedFlickrPhotosTVC.m; sourceTree = "<group>"; };
+		A45754D01FE3FF5500603DDC /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		A45754D11FE3FF5500603DDC /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		A46F1FDE1FE805D20004AFAF /* RecentlyViewedPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedPhotos.h; sourceTree = "<group>"; };
+		A46F1FDF1FE805D20004AFAF /* RecentlyViewedPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedPhotos.m; sourceTree = "<group>"; };
+		A46F1FE11FE81DBF0004AFAF /* ImagesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		A46F1FE21FE81DBF0004AFAF /* ImagesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		A46F1FE41FE82FD30004AFAF /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		A46F1FE51FE82FD30004AFAF /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		A4DF346A1FEAB7270010AB3A /* PhotosMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosMapViewController.h; sourceTree = "<group>"; };
+		A4DF346B1FEAB7270010AB3A /* PhotosMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosMapViewController.m; sourceTree = "<group>"; };
+		A4DF346E1FEAB9410010AB3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A457548D1FE3F8A800603DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF346F1FEAB9560010AB3A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754A51FE3F8A800603DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754B01FE3F8A800603DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45754871FE3F8A700603DDC = {
+			isa = PBXGroup;
+			children = (
+				A45754921FE3F8A800603DDC /* Shutterbug */,
+				A45754AB1FE3F8A800603DDC /* ShutterbugTests */,
+				A45754B61FE3F8A800603DDC /* ShutterbugUITests */,
+				A45754911FE3F8A800603DDC /* Products */,
+				A4DF346D1FEAB9410010AB3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A45754911FE3F8A800603DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45754901FE3F8A800603DDC /* Shutterbug.app */,
+				A45754A81FE3F8A800603DDC /* ShutterbugTests.xctest */,
+				A45754B31FE3F8A800603DDC /* ShutterbugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45754921FE3F8A800603DDC /* Shutterbug */ = {
+			isa = PBXGroup;
+			children = (
+				311D8C5D1FFE8BB0006E3E74 /* no_image.jpg */,
+				A45754931FE3F8A800603DDC /* AppDelegate.h */,
+				A45754941FE3F8A800603DDC /* AppDelegate.m */,
+				A45754961FE3F8A800603DDC /* ViewController.h */,
+				A45754971FE3F8A800603DDC /* ViewController.m */,
+				A45754C51FE3FE9D00603DDC /* FlickrPhotosTVC.h */,
+				A45754C61FE3FE9D00603DDC /* FlickrPhotosTVC.m */,
+				A45754CD1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.h */,
+				A45754CE1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.m */,
+				A46F1FDE1FE805D20004AFAF /* RecentlyViewedPhotos.h */,
+				A46F1FDF1FE805D20004AFAF /* RecentlyViewedPhotos.m */,
+				A45754D01FE3FF5500603DDC /* ImageViewController.h */,
+				A45754D11FE3FF5500603DDC /* ImageViewController.m */,
+				A46F1FE11FE81DBF0004AFAF /* ImagesTableViewController.h */,
+				A46F1FE21FE81DBF0004AFAF /* ImagesTableViewController.m */,
+				A45754C81FE3FF3500603DDC /* Flickr Fetcher */,
+				A45754991FE3F8A800603DDC /* Main.storyboard */,
+				3163A4991FFE2E2500514DE2 /* AddPhotoVC.h */,
+				3163A49A1FFE2E2500514DE2 /* AddPhotoVC.m */,
+				A4DF346A1FEAB7270010AB3A /* PhotosMapViewController.h */,
+				A4DF346B1FEAB7270010AB3A /* PhotosMapViewController.m */,
+				A457549C1FE3F8A800603DDC /* Assets.xcassets */,
+				A457549E1FE3F8A800603DDC /* LaunchScreen.storyboard */,
+				A45754A11FE3F8A800603DDC /* Info.plist */,
+				A45754A21FE3F8A800603DDC /* main.m */,
+				A46F1FE41FE82FD30004AFAF /* Photo.h */,
+				A46F1FE51FE82FD30004AFAF /* Photo.m */,
+			);
+			path = Shutterbug;
+			sourceTree = "<group>";
+		};
+		A45754AB1FE3F8A800603DDC /* ShutterbugTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45754AC1FE3F8A800603DDC /* ShutterbugTests.m */,
+				A45754AE1FE3F8A800603DDC /* Info.plist */,
+			);
+			path = ShutterbugTests;
+			sourceTree = "<group>";
+		};
+		A45754B61FE3F8A800603DDC /* ShutterbugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A45754B71FE3F8A800603DDC /* ShutterbugUITests.m */,
+				A45754B91FE3F8A800603DDC /* Info.plist */,
+			);
+			path = ShutterbugUITests;
+			sourceTree = "<group>";
+		};
+		A45754C81FE3FF3500603DDC /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				A45754C91FE3FF3500603DDC /* FlickrAPIKey.h */,
+				A45754CA1FE3FF3500603DDC /* FlickrFetcher.h */,
+				A45754CB1FE3FF3500603DDC /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
+		A4DF346D1FEAB9410010AB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF346E1FEAB9410010AB3A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A457548F1FE3F8A800603DDC /* Shutterbug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45754BC1FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "Shutterbug" */;
+			buildPhases = (
+				A457548C1FE3F8A800603DDC /* Sources */,
+				A457548D1FE3F8A800603DDC /* Frameworks */,
+				A457548E1FE3F8A800603DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shutterbug;
+			productName = Shutterbug;
+			productReference = A45754901FE3F8A800603DDC /* Shutterbug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A45754A71FE3F8A800603DDC /* ShutterbugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45754BF1FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "ShutterbugTests" */;
+			buildPhases = (
+				A45754A41FE3F8A800603DDC /* Sources */,
+				A45754A51FE3F8A800603DDC /* Frameworks */,
+				A45754A61FE3F8A800603DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45754AA1FE3F8A800603DDC /* PBXTargetDependency */,
+			);
+			name = ShutterbugTests;
+			productName = ShutterbugTests;
+			productReference = A45754A81FE3F8A800603DDC /* ShutterbugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A45754B21FE3F8A800603DDC /* ShutterbugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45754C21FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "ShutterbugUITests" */;
+			buildPhases = (
+				A45754AF1FE3F8A800603DDC /* Sources */,
+				A45754B01FE3F8A800603DDC /* Frameworks */,
+				A45754B11FE3F8A800603DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45754B51FE3F8A800603DDC /* PBXTargetDependency */,
+			);
+			name = ShutterbugUITests;
+			productName = ShutterbugUITests;
+			productReference = A45754B31FE3F8A800603DDC /* ShutterbugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45754881FE3F8A700603DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Dragota Mircea";
+				TargetAttributes = {
+					A457548F1FE3F8A800603DDC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A45754A71FE3F8A800603DDC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A457548F1FE3F8A800603DDC;
+					};
+					A45754B21FE3F8A800603DDC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A457548F1FE3F8A800603DDC;
+					};
+				};
+			};
+			buildConfigurationList = A457548B1FE3F8A700603DDC /* Build configuration list for PBXProject "Shutterbug" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45754871FE3F8A700603DDC;
+			productRefGroup = A45754911FE3F8A800603DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A457548F1FE3F8A800603DDC /* Shutterbug */,
+				A45754A71FE3F8A800603DDC /* ShutterbugTests */,
+				A45754B21FE3F8A800603DDC /* ShutterbugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A457548E1FE3F8A800603DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45754A01FE3F8A800603DDC /* LaunchScreen.storyboard in Resources */,
+				A457549D1FE3F8A800603DDC /* Assets.xcassets in Resources */,
+				A457549B1FE3F8A800603DDC /* Main.storyboard in Resources */,
+				311D8C5E1FFE8BB0006E3E74 /* no_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754A61FE3F8A800603DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754B11FE3F8A800603DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A457548C1FE3F8A800603DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46F1FE01FE805D20004AFAF /* RecentlyViewedPhotos.m in Sources */,
+				A45754981FE3F8A800603DDC /* ViewController.m in Sources */,
+				A4DF346C1FEAB7270010AB3A /* PhotosMapViewController.m in Sources */,
+				A45754C71FE3FE9D00603DDC /* FlickrPhotosTVC.m in Sources */,
+				A45754CF1FE3FF4600603DDC /* JustPostedFlickrPhotosTVC.m in Sources */,
+				A45754A31FE3F8A800603DDC /* main.m in Sources */,
+				A45754CC1FE3FF3500603DDC /* FlickrFetcher.m in Sources */,
+				A46F1FE31FE81DBF0004AFAF /* ImagesTableViewController.m in Sources */,
+				A45754D21FE3FF5500603DDC /* ImageViewController.m in Sources */,
+				A46F1FE61FE82FD30004AFAF /* Photo.m in Sources */,
+				A45754951FE3F8A800603DDC /* AppDelegate.m in Sources */,
+				3163A49B1FFE2E2500514DE2 /* AddPhotoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754A41FE3F8A800603DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45754AD1FE3F8A800603DDC /* ShutterbugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45754AF1FE3F8A800603DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45754B81FE3F8A800603DDC /* ShutterbugUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A45754AA1FE3F8A800603DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A457548F1FE3F8A800603DDC /* Shutterbug */;
+			targetProxy = A45754A91FE3F8A800603DDC /* PBXContainerItemProxy */;
+		};
+		A45754B51FE3F8A800603DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A457548F1FE3F8A800603DDC /* Shutterbug */;
+			targetProxy = A45754B41FE3F8A800603DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A45754991FE3F8A800603DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A457549A1FE3F8A800603DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A457549E1FE3F8A800603DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A457549F1FE3F8A800603DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45754BA1FE3F8A800603DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A45754BB1FE3F8A800603DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45754BD1FE3F8A800603DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39446JG6PB;
+				INFOPLIST_FILE = Shutterbug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Shutterbug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45754BE1FE3F8A800603DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39446JG6PB;
+				INFOPLIST_FILE = Shutterbug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Shutterbug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A45754C01FE3F8A800603DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
+				INFOPLIST_FILE = ShutterbugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.ShutterbugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
+			};
+			name = Debug;
+		};
+		A45754C11FE3F8A800603DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
+				INFOPLIST_FILE = ShutterbugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.ShutterbugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
+			};
+			name = Release;
+		};
+		A45754C31FE3F8A800603DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
+				INFOPLIST_FILE = ShutterbugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.ShutterbugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shutterbug;
+			};
+			name = Debug;
+		};
+		A45754C41FE3F8A800603DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
+				INFOPLIST_FILE = ShutterbugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.ShutterbugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shutterbug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A457548B1FE3F8A700603DDC /* Build configuration list for PBXProject "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45754BA1FE3F8A800603DDC /* Debug */,
+				A45754BB1FE3F8A800603DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45754BC1FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45754BD1FE3F8A800603DDC /* Debug */,
+				A45754BE1FE3F8A800603DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45754BF1FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "ShutterbugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45754C01FE3F8A800603DDC /* Debug */,
+				A45754C11FE3F8A800603DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45754C21FE3F8A800603DDC /* Build configuration list for PBXNativeTarget "ShutterbugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45754C31FE3F8A800603DDC /* Debug */,
+				A45754C41FE3F8A800603DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45754881FE3F8A700603DDC /* Project object */;
+}
